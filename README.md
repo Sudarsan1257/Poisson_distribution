@@ -1,4 +1,6 @@
 # Fitting Poisson  distribution
+## NAME: SUDARSAN.A
+## REG.NO :212224220111
 # Aim : 
 
 To fit poisson distribution for the arrival of objects per minute from the feeder
@@ -29,7 +31,8 @@ The Poisson distribution is the discrete probability distribution of the number 
 ![image](https://user-images.githubusercontent.com/103921593/230282876-f4a5afbf-cac1-4648-a1b0-c78840638a8e.png)
 
 # Program :
-```
+
+```python
 
 import numpy as np
 import math
@@ -66,30 +69,16 @@ if cal_chi2_sq<table_chi2:
     print("The given data can be fitted in poisson Distribution at 1% LOS")
 else:
     print("The given data cannot be fitted in Poisson Distribution at 1% LOS")
+
 ```
+
  
 
 # Output : 
-```
-2 3 3 1 0 2
 
-
-X     P(X=x)     Obs.Fr   Exp.Fr   xi
---------------------------
-0.00   0.105   1.00   0.63   0.23
-1.00   0.315   1.00   1.89   0.47
-2.00   0.315   3.00   3.79   0.17
-3.00   0.210   1.00   1.74   0.22
---------------------------
-Calculated value of Chi square is 1.09
-Table value of chi square at 1% LOS is 7.81
-The given data can be fitted in poisson Distribution at 1% LOS
-
-
-```
+![image](https://github.com/user-attachments/assets/1c059d5e-dc79-40ae-a0b1-e56c897e1eea)
 
 
 # Results
 
 The Poisson distribution is fitted for the objects arrived from feeder per minute and the data is tested using Chi-square test. 
- 
